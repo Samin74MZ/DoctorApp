@@ -13,7 +13,7 @@ class Activity1 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding= Activity1Binding.inflate(layoutInflater)
         setContentView(binding.root)
-        val listOfDoctor= Hospital.listOfDoctors
+
 //        binding.button6.setOnClickListener{
 //            val intent = Intent(this, DetailActivity::class.java)
 //            intent.putExtra("name",listOfDoctor[0].name)
@@ -62,6 +62,7 @@ class Activity1 : AppCompatActivity() {
 //        }
         initButton()
         for (i in 0 until buttonList.size){
+            buttonList[i].text=Hospital.listOfDoctors[i].name
             buttonList[i].setOnClickListener { goToDoctorPage(Hospital.listOfDoctors[i]) }
         }
     }

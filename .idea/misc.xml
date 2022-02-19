@@ -5,7 +5,8 @@
       <map>
         <entry key="..\:/Users/rs/AndroidStudioProjects/DoctorApp/app/src/main/res/layout/activity_1.xml" value="0.20854700854700856" />
         <entry key="..\:/Users/rs/AndroidStudioProjects/DoctorApp/app/src/main/res/layout/activity_main.xml" value="0.264" />
-        <entry key="..\:/Users/rs/AndroidStudioProjects/DoctorApp/app/src/main/res/layout/fragment_doctor_info.xml" value="0.20854700854700856" />
+        <entry key="..\:/Users/rs/AndroidStudioProjects/DoctorApp/app/src/main/res/layout/detailactivity.xml" value="0.4" />
+        <entry key="..\:/Users/rs/AndroidStudioProjects/DoctorApp/app/src/main/res/layout/fragment_doctor_info.xml" value="0.4" />
       </map>
     </option>
   </component>

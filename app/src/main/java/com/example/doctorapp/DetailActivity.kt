@@ -18,8 +18,8 @@ class DetailActivity : AppCompatActivity() {
         val setDoctor=intent.getParcelableExtra<Doctor>(DOCTOR)
         for (doctor in Hospital.listOfDoctors){
             if (doctor==setDoctor){
-                binding.textView.text=doctor.name
-                binding.textView1.text=doctor.location
+//                binding.textView.text=doctor.name
+//                binding.textView1.text=doctor.location
             }
         }
 //        name=intent.getStringExtra("name").toString()

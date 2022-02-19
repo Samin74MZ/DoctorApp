@@ -33,9 +33,7 @@ class DoctorInfoFragment : Fragment() {
         // Inflate the layout for this fragment
         binding= FragmentDoctorInfoBinding.inflate(inflater,container,false)
        val view=binding.root
-        binding.button9.setOnClickListener {
-            Toast.makeText(activity,"Fragment work",Toast.LENGTH_SHORT).show()
-        }
+
         return view
     }
 

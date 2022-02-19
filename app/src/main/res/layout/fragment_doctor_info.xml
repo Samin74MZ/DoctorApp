@@ -3,16 +3,73 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
     tools:context=".DoctorInfoFragment">
 
-    <!-- TODO: Update blank fragment layout -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="165dp"
+        android:layout_height="77dp">
 
-    <Button
-        android:id="@+id/button9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_margin="100dp"
-        android:text="Button" />
+        <TextView
+            android:id="@+id/Doctor_Name"
+            android:layout_width="0dp"
+            android:layout_height="22dp"
+            android:layout_gravity="center"
+            android:autoSizeTextType="uniform"
+            android:gravity="center"
+            android:text="@string/personName"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="@+id/textview_Phone"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/textview_Phone"
+            app:layout_constraintTop_toTopOf="@+id/Doctor_Image" />
+
+        <ImageView
+            android:id="@+id/Doctor_Image"
+            android:layout_width="68dp"
+            android:layout_height="65dp"
+            android:layout_gravity="center"
+            android:scaleType="fitXY"
+            android:src="@drawable/user"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:srcCompat="@drawable/user" />
+
+        <TextView
+            android:id="@+id/textView_location"
+            android:layout_width="0dp"
+            android:layout_height="22dp"
+            android:gravity="center"
+            android:text="@string/location"
+            android:textSize="11sp"
+            app:layout_constraintBottom_toBottomOf="@+id/Doctor_Image"
+            app:layout_constraintEnd_toEndOf="@+id/textview_Phone"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/textview_Phone" />
+
+        <TextView
+            android:id="@+id/textview_Phone"
+            android:layout_width="0dp"
+            android:layout_height="22dp"
+            android:gravity="center"
+            android:text="11111111111"
+            app:layout_constraintBottom_toTopOf="@+id/textView_location"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/Doctor_Image"
+            app:layout_constraintTop_toBottomOf="@+id/Doctor_Name" />
+
+        <androidx.constraintlayout.widget.Group
+            android:id="@+id/info_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:constraint_referenced_ids="Doctor_Image,Doctor_Name,textView_location,textview_Phone" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
 
 </FrameLayout>

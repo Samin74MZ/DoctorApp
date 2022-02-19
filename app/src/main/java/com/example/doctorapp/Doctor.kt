@@ -1,8 +1,6 @@
 package com.example.doctorapp
 
-import android.media.Image
 import android.os.Parcelable
-import android.provider.ContactsContract
 import kotlinx.parcelize.Parcelize
 
 @Parcelize
