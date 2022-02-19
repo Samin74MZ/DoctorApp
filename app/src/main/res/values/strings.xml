@@ -7,4 +7,6 @@
     <string name="location">New York,NY</string>
     <string name="onlineVisit">\n online\n visit</string>
     <string name="doctorinfo">DoctorInfo</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
