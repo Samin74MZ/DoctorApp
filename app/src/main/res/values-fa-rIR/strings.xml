@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">اپلیکیشن دکتر</string>
+    <string name="favorite">علاقه مندی ها</string>
+    <string name="personName">نام</string>
+    <string name="location">محل</string>
+    <string name="doctorinfo">اطلاعات دکتر</string>
+    <string name="hello_blank_fragment">سلام بر فرگمنت</string>
+    <string name="onlineVisit">ویزیت انلاین</string>
+    <string name="bookAnAppointment">وقت گرفتن</string>
+    <string name="homeConsultation">مشاوره در خانه</string>
+    <string name="phone_number">شماره تلفن</string>
+    <string name="helen_b">هلن ب</string>
+</resources>

@@ -18,6 +18,9 @@ class DetailActivity : AppCompatActivity() {
         val setDoctor=intent.getParcelableExtra<Doctor>(DOCTOR)
         for (doctor in Hospital.listOfDoctors){
             if (doctor==setDoctor){
+//                val actionBar=supportActionBar
+//                actionBar?.title=doctor.name
+                this.title = doctor.name
 //                binding.textView.text=doctor.name
 //                binding.textView1.text=doctor.location
             }

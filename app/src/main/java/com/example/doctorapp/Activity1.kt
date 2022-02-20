@@ -65,6 +65,7 @@ class Activity1 : AppCompatActivity() {
             buttonList[i].text=Hospital.listOfDoctors[i].name
             buttonList[i].setOnClickListener { goToDoctorPage(Hospital.listOfDoctors[i]) }
         }
+
     }
     private fun initButton(){
         buttonList.add(binding.button6)

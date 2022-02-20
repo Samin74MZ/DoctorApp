@@ -3,10 +3,12 @@
     <string name="bookAnAppointment">\n book an appointment</string>
     <string name="homeConsultation">\n Home\n consultation</string>
     <string name="favorite">Favorite</string>
-    <string name="personName">Helen B.</string>
+    <string name="personName">Name </string>
     <string name="location">New York,NY</string>
     <string name="onlineVisit">\n online\n visit</string>
     <string name="doctorinfo">DoctorInfo</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="phone_number">1111111</string>
+    <string name="helen_b">Helen B</string>
 
 </resources>
