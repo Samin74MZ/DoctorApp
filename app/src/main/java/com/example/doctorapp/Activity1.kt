@@ -62,8 +62,8 @@ class Activity1 : AppCompatActivity() {
 //        }
         initButton()
         for (i in 0 until buttonList.size){
-            buttonList[i].text=Hospital.listOfDoctors[i].name
-            buttonList[i].setOnClickListener { goToDoctorPage(Hospital.listOfDoctors[i]) }
+            buttonList[i].text=MainViewModel().listOfDoctors[i].name
+            buttonList[i].setOnClickListener { goToDoctorPage(MainViewModel().listOfDoctors[i]) }
         }
 
     }
